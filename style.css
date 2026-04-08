@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* EVENT INFO */
+.event-info {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+.section-title {
+  margin-bottom: 15px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* TEXT */
+.desc {
+  color: #666;
+}
+
+.info {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* DIVIDER */
+.divider {
+  border-top: 1px dashed #ddd;
+  margin: 15px 0;
+}
+
+/* FOOTER */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(135deg, #1e88e5, #1565c0);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
